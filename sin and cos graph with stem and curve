@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+from numpy import linspace,sin,cos,pi
+x=linspace(0,2*pi,20)
+plt.plot(x,sin(x))
+plt.stem(x,cos(x),linefmt ='g',markerfmt= 'r^')
+plt.show()
